@@ -85,7 +85,7 @@ constant_check_and_change_priority(
         and close_after_first is set to 0 (False).
 
         # adjust the path!
-        python .\__init__.py --exe_path notepad.exe$ --priority 128 --is_regex 1 --flags 2 --delay 2.0 --close_after_first 0
+        python "C:\ProgramData\anaconda3\envs\dfdir\Lib\site-packages\change_proc_priority\__init__.py" --exe_path notepad.exe$ --priority 128 --is_regex 1 --flags 2 --delay 2.0 --close_after_first 0
         #################################################
 
 
